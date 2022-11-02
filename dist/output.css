@@ -839,12 +839,6 @@ video {
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
 }
 
-.border-x-slate-700 {
-  --tw-border-opacity: 1;
-  border-left-color: rgb(51 65 85 / var(--tw-border-opacity));
-  border-right-color: rgb(51 65 85 / var(--tw-border-opacity));
-}
-
 .bg-transparent {
   background-color: transparent;
 }
@@ -960,6 +954,10 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-56 {
+  padding-top: 14rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -997,10 +995,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[0\.75rem\] {
-  font-size: 0.75rem;
 }
 
 .font-bold {
