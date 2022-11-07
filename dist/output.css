@@ -595,6 +595,10 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -724,6 +728,10 @@ video {
 
 .h-32 {
   height: 8rem;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-full {
@@ -877,6 +885,11 @@ video {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -956,6 +969,10 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -1308,6 +1325,18 @@ body {
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-\[41px\] {
+    font-size: 41px;
+  }
+
+  .lg\:text-\[43px\] {
+    font-size: 43px;
   }
 
   .lg\:shadow-none {
